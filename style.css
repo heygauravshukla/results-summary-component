@@ -78,7 +78,7 @@ body {
   color: var(--clr-neutral-700);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 40em) {
   body {
     min-height: 100vh;
     display: grid;
@@ -131,7 +131,7 @@ body {
   display: grid;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 40em) {
   .result-summary {
     margin-inline: 1rem;
     grid-template-columns: 1fr 1fr;
@@ -149,7 +149,7 @@ body {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 40em) {
   .results {
     border-radius: var(--border-radius);
   }
