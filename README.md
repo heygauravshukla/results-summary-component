@@ -68,18 +68,18 @@ Using HSL colors in CSS to be able to control their opacity:
 
 Steps to approach design-to-code implementation:
 
-1. Writing HTML markup
+- Writing HTML markup
 
-- Observe the layout from desktop designs first (as they usually have more complexity than the mobile ones).
-- Observe the elements with similar styling to create reusable classes.
+  - Observe the layout from desktop designs first (as they usually have more complexity than the mobile ones).
+  - Observe the elements with similar styling to create reusable classes.
 
-2. Writing CSS styling
+- Writing CSS styling
 
-- Add any @font-face rules if using self-hosted fonts.
-- Create custom properties in the :root
-- Write generic styles.
-- Write common styles (utility classes).
-- Write layout-specific CSS.
+  - Add any @font-face rules if using self-hosted fonts.
+  - Create custom properties in the :root
+  - Write generic styles.
+  - Write common styles (utility classes).
+  - Write layout-specific CSS.
 
 ### Continued development
 
