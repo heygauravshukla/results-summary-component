@@ -112,7 +112,8 @@ body {
   color: var(--clr-neutral-100);
   line-height: 1;
   background: var(--clr-neutral-700);
-  padding: 1rem 2rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
   border: 0;
   border-radius: 100vw;
   cursor: pointer;
@@ -144,7 +145,8 @@ body {
 .results {
   color: hsl(var(--clr-neutral-hsl-100), 0.7);
   text-align: center;
-  padding: var(--padding) calc(var(--padding) * 1.5);
+  padding-inline: calc(var(--padding) * 1.5);
+  padding-block: var(--padding);
   background: var(--gradient-primary);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
